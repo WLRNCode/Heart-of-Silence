@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    /* overflow: hidden; */
+}
+.menuButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menuButtons button{
+    width: 400px;
+    height: 50px;
+}
+.logo{
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 25px rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+img{
+    width: 200px;
+    transform: perspective(700px) translate3d(0px, 0, 0px) rotateX(-30deg);
+}
+.Settings{
+    width: 50vw;
+    height: 100vh;
+    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Console";
+    /* justify-content: space-evenly; */
+}
+.Settings .headerSettings{
+    font-size: 2rem;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Settings .mainSettings{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background: rgb(34, 255, 27); */
+    
+}
+.Settings .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 49%;
+    height: 35%;
+    font-size: 40px;
+    /* background: fuchsia; */
+}
+.Settings .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 35%;
+    /* background: fuchsia; */
+}
+.Settings .forms select{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 0%;
+    border: none;
+}
+.Settings .forms input{
+    align-self: start;
+    height: 50px;
+    width: 50px;
+}
+.keyboard{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: normal; */
+    font-size: .85rem;
+    /* background-color: aqua; */
+}
+.keyboard .box{
+    background-color: rgb(90, 90, 90);
+    width: 400px;
+    height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 40px;
+}
+.keyboard .box .textkey{
+    width: 290px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard .box .key{
+    background-color: rgb(255, 255, 255);
+    width: 110px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resetKeys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 90, 90);
+    width: 910px;
+    height: 65px;
+    font-size: .85rem;
+}
+.footerSettings{
+    height: 25%;
+    width: 100%;
+    /* background: gold; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerSettings .music{
+    height: 25%;
+    width: 50%;
+    /* background: rgb(29, 28, 22); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footerSettings .music input, .footerSettings .sound input{
+    width: 90%;
+    height: 40%;
+}
+.footerSettings .sound{
+    height: 25%;
+    width: 50%;
+    /* background: rgb(121, 108, 38); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lang{
+    height: 50%;
+    width: 100%;
+    /* background: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.russian, .english{
+    height: 100px;
+    width: 200px;
+    margin: 0px 20px;
+    background: rgb(126, 31, 78);
+}
